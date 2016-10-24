@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人网站</title>
+    <script src="js/jquery.js"></script>
+    <script src="js/index.js"></script>
+
+    <script src="js/yanhua.js"></script>
+    <script src="js/canvas.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <!--必要样式-->
+    <link rel="stylesheet" type="text/css" href="css/set1.css" />
+</head>
+<body>
+    <audio src="梁青 - 远方.mp3" style="width:0;height:0;"></audio>
+    <canvas id="canvas"></canvas>
+    <div id="home" class="home">
+        <h1 class="word1">WELCOME TO MY WORLD</h1>
+        <!--<h1 class="word2">O MY WORLD</h1>-->
+        <h1 class="name1">HELLO,I AM QiaoXiaoYan</h1>
+        <!--<h1 class="name2">QiaoXiaoYan</h1>-->
+        <div class="smile">
+            <!--<div class="circle"></div>-->
+        </div>
+        <!--<div class="mask"></div>-->
+        <div class="next">
+            <a href="#works">
+                <div class="move"></div>
+            </a>
+        </div>
+    </div>
+    <div class="leader">
+        <div class="content">
+            <div class="left">
+                <div class="name">QIAOXIAOYAN</div>
+                <div class="phone">call me:18335906970</div>
+            </div>
+            <div class="right">
+                <ul>
+                    <li class="li"><a href="#home">主页</a></li>
+                    <li class="li"><a href="#works">作品</a></li>
+                    <li class="li"><a href="#skill">技能</a></li>
+                    <li class="li"><a href="#experience">经历</a></li>
+                    <li class="li"><a href="#me">关于我</a></li>
+                    <li class="li"><a href="#contact">联系我</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="works" class="works">
+        <div class="mask"></div>
+        <div class="content">
+            <div class="title">MY WORKS</div>
+            <div class="describe">
+                <div>以下是我之前的一些作品，如果有什么想法可以联系我<a href="#contact"></a>，欢迎交流，一起进步 </div>
+            </div>
+            <!--<div class="show">-->
+            <!--<div class="row">-->
+                <!--<div class="title">MY WORKS &#45;&#45; 网页</div>-->
+            <!--<div class="describe">-->
+                <!--<div>以下是我之前的一些作品，如果有什么想法可以联系我<a href="#contact"></a>，和我交流 </div>-->
+            <!--</div>-->
+                <!--苹果官网-->
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <a href="https://sarah1119.github.io/apple" target="_blank">
+                        <div class="grid wow zoomIn animated" style="visibility: visible; animation-name: zoomIn;">
+                            <figure class="effect-ruby">
+                                <img src="img/apple.jpg" alt="img01">
+                                <figcaption>
+                                    <h2>Apple <span>WEB</span></h2>
+                                    <p>这个网页是对响应式的一个练习，其中实现了对Apple的布局,用sass预处理器实现css，banner使用了css3的延迟来实现效果</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </a>
+                </div>
+                <!--天猫官网-->
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <a href="https://sarah1119.github.io/tianmao" target="_blank">
+                        <div class="grid wow zoomIn animated" style="visibility: visible; animation-name: zoomIn;">
+                            <figure class="effect-ruby">
+                                <img src="img/tianmao.jpg" alt="img01">
+                                <figcaption>
+                                    <h2>Tmall <span>WEB</span></h2>
+                                    <p>这个网页是对电商类网页的练习，其中实现了网站首页的布局和所有效果，比如按需加载、楼层跳转等。</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </a>
+                </div>
+                <!--银泰官网-->
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <a href="https://sarah1119.github.io/yintai" target="_blank">
+                        <div class="grid wow zoomIn animated" style="visibility: visible; animation-name: zoomIn;">
+                            <figure class="effect-ruby">
+                                <img src="img/yintai.jpg" alt="img01">
+                                <figcaption>
+                                    <h2>YinTai <span>WEB</span></h2>
+                                    <p>这个网页是对电商类网页的练习，其中实现了网站首页的布局和所有效果，比如各种轮播、按需加载、楼层跳转等。</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </a>
+                </div>
+                <!--<div style="clear: both;"></div>-->
+            <!--</div>-->
+            <!--<div class="row">-->
+                <!--<div class="title">MY WORKS &#45;&#45; 游戏</div>-->
+
+                <!--五子棋-->
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <a href="https://sarah1119.github.io/five-in-row" target="_blank">
+                        <div class="grid wow zoomIn animated" style="visibility: visible; animation-name: zoomIn;">
+                            <figure class="effect-ruby">
+                                <img src="img/five.jpg" alt="img01">
+                                <figcaption>
+                                    <h2>five <span>WEB</span></h2>
+                                    <p>这个小应用利用canvas进行页面绘制，运用sass预处理器进行css效果，实现了五子棋的基本功能，同时使用canvas和js实现了人机对战和人人对战功能。</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </a>
+                </div>
+                <!--poker-->
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <a href="https://sarah1119.github.io/poker" target="_blank">
+                        <div class="grid wow zoomIn animated" style="visibility: visible; animation-name: zoomIn;">
+                            <figure class="effect-ruby">
+                                <img src="img/poker.jpg" alt="img01">
+                                <figcaption>
+                                    <h2>poker <span>web</span></h2>
+                                    <p>这个小应用是模仿window8里的内置游戏，两张相加13就消掉，可以左右移牌，计时，重新发牌。</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </a>
+                </div>
+                <!--snake-->
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <a href="https://sarah1119.github.io/snake" target="_blank">
+                        <div class="grid wow zoomIn animated" style="visibility: visible; animation-name: zoomIn;">
+                            <figure class="effect-ruby">
+                                <img src="img/snake.jpg" alt="img01">
+                                <figcaption>
+                                    <h2>snake <span>web</span></h2>
+                                    <p>这个小应用是模仿我们熟知的贪吃蛇游戏，利用css3动画实现了一些蛇移动时左右会浮动效果。</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </a>
+                </div>
+                <div style="clear: both;"></div>
+
+            <!--</div>-->
+            <!--<div class="row">-->
+                <!--<div class="title">MY WORKS &#45;&#45; 小应用</div>-->
+                <!--music-->
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                <a href="https://sarah1119.github.io/music" target="_blank">
+                    <div class="grid wow zoomIn animated" style="visibility: visible; animation-name: zoomIn;">
+                        <figure class="effect-ruby">
+                            <img src="img/music.jpg" alt="img01">
+                            <figcaption>
+                                <h2>music <span>web</span></h2>
+                                <p>这个小应用利用css3动画实现了音乐播放的基本功能，同时使用canvas和js实现了跟随乐律跳动。</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </a>
+            </div>
+                <!--天猫手机端-->
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <a href="http://qxylk1119.duapp.com/" target="_blank">
+                        <div class="grid wow zoomIn animated" style="visibility: visible; animation-name: zoomIn;">
+                            <figure class="effect-ruby">
+                                <img src="img/link.jpg" alt="img01">
+                                <figcaption>
+                                    <h2>Tmall <span></span></h2>
+                                    <p>这个应用实现了天猫的手机端首页页面，有些效果实现使用的是swiper插件。</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </a>
+                </div>
+                <!--reminder-->
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <a href="http://qxylk1119.duapp.com/" target="_blank">
+                        <div class="grid wow zoomIn animated" style="visibility: visible; animation-name: zoomIn;">
+                            <figure class="effect-ruby">
+                                <img src="img/link.jpg" alt="img01">
+                                <figcaption>
+                                    <h2>reminder<span></span></h2>
+                                    <p>这个小应用利用的是主要是AngularJs，利用了bootstrap进行布局还原了Apple的备忘录所有的功能可以分类记录自己的一些日常行程，利用indexof实现搜索</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </a>
+                </div>
+                <!--todos-->
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <a href="http://qxylk1119.duapp.com/" target="_blank">
+                        <div class="grid wow zoomIn animated" style="visibility: visible; animation-name: zoomIn;">
+                            <figure class="effect-ruby">
+                                <img src="img/link.jpg" alt="img01">
+                                <figcaption>
+                                    <h2>便签 <span></span></h2>
+                                    <p>这个小APP利用localstorage实现对数据的记录，可以分类记录自己的一些日常行程，利用indexof实现搜索。</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </a>
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+        </div>
+    </div>
+    <div id="skill" class="skill">
+        <div class="mask"></div>
+        <div class="content">
+            <div class="title">MY SKILL</div>
+            <div class="show">
+                <div class="d-2 m-2">
+                    <div class="progress-ring angular"  data-percent="90" data-duration="2">
+                        <!--<img src="img/angular.jpg" alt="angular">-->
+                    </div>
+                    <div class="name">Angular</div>
+                </div>
+                <div class="d-2 m-2">
+                    <div class="progress-ring ajax" data-percent="90" data-duration="2">
+                        <!--<img src="img/ajax.jpg" alt="angular">-->
+                    </div>
+                    <div class="name">Ajax</div>
+                </div>
+                <div class="d-2 m-2">
+                    <div class="progress-ring node" data-percent="90" data-duration="2">
+                        <!--<img src="img/node.jpg" alt="angular">-->
+                    </div>
+                    <div class="name">Node</div>
+                </div>
+                <div class="d-2 m-2">
+                    <div class="progress-ring h5" data-percent="90" data-duration="2">
+                        <!--<img src="img/angular.jpg" alt="angular">-->
+                    </div>
+                    <div class="name">Html5</div>
+                </div>
+                <div class="d-2 m-2">
+                    <div class="progress-ring c3" data-percent="90" data-duration="2">
+                        <!--<img src="img/angular.jpg" alt="angular">-->
+                    </div>
+                    <div class="name">Css3</div>
+                </div>
+                <div class="d-2 m-2">
+                    <div class="progress-ring js" data-percent="90" data-duration="2">
+                        <!--<img src="img/angular.jpg" alt="angular">-->
+                    </div>
+                    <div class="name">Javascript</div>
+                </div>
+                <div class="d-2 m-2">
+                    <div class="progress-ring jq" data-percent="90" data-duration="2">
+                        <!--<img src="img/angular.jpg" alt="angular">-->
+                    </div>
+                    <div class="name">jQuery</div>
+                </div>
+                <div class="d-2 m-2">
+                    <div class="progress-ring sass" data-percent="90" data-duration="2">
+                        <!--<img src="img/angular.jpg" alt="angular">-->
+                    </div>
+                    <div class="name">Sass</div>
+                </div>
+                <div class="d-2 m-2">
+                    <div class="progress-ring mysql" data-percent="90" data-duration="2">
+                        <!--<img src="img/angular.jpg" alt="angular">-->
+                    </div>
+                    <div class="name">Mysql</div>
+                </div>
+                <div class="d-2 m-2">
+                    <div class="progress-ring ps" data-percent="90" data-duration="2">
+                        <!--<img src="img/angular.jpg" alt="angular">-->
+                    </div>
+                    <div class="name">PhotoShop</div>
+                </div>
+                <div class="d-2 m-2">
+                    <div class="progress-ring bootstrap" data-percent="90" data-duration="2">
+                        <!--<img src="img/angular.jpg" alt="angular">-->
+                    </div>
+                    <div class="name">Bootstrap</div>
+                </div>
+                <div class="d-2 m-2">
+                    <div class="progress-ring phpcms" data-percent="90" data-duration="2">
+                        <!--<img src="img/angular.jpg" alt="angular">-->
+                    </div>
+                    <div class="name">Phpcms</div>
+                </div>
+                <div class="d-2 m-2">
+                    <div class="progress-ring swiper" data-percent="90" data-duration="2">
+                        <!--<img src="img/angular.jpg" alt="angular">-->
+                    </div>
+                    <div class="name">Phpcms</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="me" class="me">
+        <div class="mask"></div>
+        <div class="content">
+            <div class="title">ABOUT ME</div>
+            <div class="show">
+                <div class="left">
+                    <div class="kuang">
+                        <div class="photo"></div>
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="top">
+                        <span class="pro">PROFESSIONAL</span>
+                        <span class="web">WEB DESIGNER</span>
+                    </div>
+                    <div class="bottom">
+                        <p>姓名 : 乔晓艳</p>
+                        <p>毕业学校 : 运城学院</p>
+                        <p>系别 : 计算机科学与技术系</p>
+                    </div>
+                </div>
+                <div class="introduce">
+                    大家好，我是乔晓艳，是一名前端工程师。我觉得作为一名程序员，拥有独特的眼光，紧随时代潮流，是制作出高水准的设计的必要能力；同时要拥有较强的学习能力和思维能力，逻辑清晰，对待工作认真负责，不容忍一丝错误，高质量完成任务;不管做什么最重要的是要有认真对待的态度，态度决定一切！，而我恰好拥有这些，所以请你们选我，选我，选我哦!
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="contact">
+        <div class="mask"></div>
+        <div class="content">
+            <div class="title">CONTACT ME</div>
+            <div class="show">
+                <div class="center">
+                    <a href="http://map.baidu.com/"></a>
+                    <div class="top">
+                        <span></span>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                    <div class="bottom">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <span></span>
+                    </div>
+                    <div class="tel"><a href="#">电话：18335906970</a></div>
+                    <div class="qq"><a href="#">QQ：1124807001</a></div>
+                    <div class="mail"><a href="#">邮箱：18335906970@163.com</a></div>
+                    <div class="adress"><a href="#">地址：山西省太原市小店区</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
